@@ -1,0 +1,44 @@
+<resources>
+    <string name="app_name">Co-Kost</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello Kost fragment</string>
+    <string name="nama_kost">nama kost</string>
+    <string name="alamat">Alamat : jln mutira no 8</string>
+    <string name="keterangan">kos murah meriah</string>
+    <string name="stock_kost">tersedia 2 jenis kamar</string>
+    <string name="pemilik">pemilik : muh alfalah</string>
+    <string name="jenis_kamar">kamar tipe : A1</string>
+    <string name="room_price">Rp. 4.000.000 / Tahun</string>
+    <string name="facilities">kamar madi dalam, tv, ac, tempat cuci piring, kulkas</string>
+    <string name="detail">Detail</string>
+    <string name="_735">Rp.40.000.000</string>
+    <string name="stock_hanya_5_buah">tinggal 3 kamar</string>
+    <string name="content_text">Tempat kost ini merupakan kawasan yang strategis karena dekat dengan kampus dan         pusat perbelanjaan</string>
+    <string name="spesifikasi">Keterangan</string>
+    <string name="f_umum">Fasilitas</string>
+    <string name="f_umum_desc">
+        2 tempat tidur lengkap dgn bantal\n
+        1 kamar mansi dalam\n
+        1 lemari\n
+        Termasuk Listrik\n
+        Termasuk Air\n
+    </string>
+    <string name="size">Ukuran</string>
+    <string name="content_specs_size">4 X 4 m</string>
+    <string name="lama_tinggal">Lama Tinggal</string>
+    <string name="lama_tinggal_desc">1 Tahun</string>
+    <string name="di_jual_oleh">Di jual oleh</string>
+    <string name="hubungi">Hubungi</string>
+    <string name="lihat_kost">Lihat Kost</string>
+    <string name="favorites">Favorites</string>
+    <string name="simpan">Simpan</string>
+    <string name="tidak_ada_data">Tidak ada data</string>
+    <string name="example_search_kost">cari berdasarkan nama atau alamat</string>
+    <string name="load_more">lebih banyak</string>
+    <string name="tidak_ada_data2">tidak ada data, swipe down untuk refresh</string>
+    <string name="tentang" >
+        Cokost merupakan aplikasi yang membantu anda untuk mencari kost \n
+        Dikembangkan oleh : Madukubah
+    </string>
+</resources>

@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".view.activity.detail_room.DetailRoomActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <android.support.v4.view.ViewPager
+                android:id="@+id/viewPager_slider"
+                android:layout_width="match_parent"
+                android:layout_height="270dp">
+            </android.support.v4.view.ViewPager>
+
+        </FrameLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+            <TextView
+                android:id="@+id/tv_harga"
+                style="@style/TextContent.Black"
+                android:textSize="32sp"
+                android:text="@string/_735"
+                android:layout_marginTop="@dimen/activity_vertical_margin"
+                android:layout_marginBottom="8dp"/>
+
+            <Button
+                android:id="@+id/btn_simpan"
+                style="@style/ButtonSimpan"
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="8dp"
+                android:layout_marginEnd="@dimen/activity_horizontal_margin"
+                android:text="@string/simpan"
+                android:layout_marginRight="@dimen/activity_horizontal_margin" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+            <TextView
+                android:id="@+id/tv_quantity"
+                style="@style/TextContent.Subtitle"
+                android:text="@string/stock_hanya_5_buah"
+                android:layout_marginBottom="@dimen/activity_vertical_margin"
+                android:layout_weight="1"
+                />
+            <TextView
+                android:id="@+id/tv_has_been_seen"
+                style="@style/TextContent.Subtitle"
+                android:text="@string/stock_hanya_5_buah"
+                android:layout_marginBottom="@dimen/activity_vertical_margin"
+                android:layout_weight="1"
+                android:textAlignment="viewEnd"
+                android:gravity="end" />
+        </LinearLayout>
+        <!--<TextView-->
+            <!--style="@style/TextContent"-->
+            <!--android:text="@string/content_text"-->
+            <!--android:layout_marginBottom="@dimen/activity_vertical_margin"-->
+            <!--android:lineSpacingMultiplier="1"-->
+            <!--android:textColor="@android:color/black"/>-->
+        <TextView
+            style="@style/TextContent.Subtitle"
+            android:text="@string/spesifikasi"
+            android:layout_marginBottom="8dp"/>
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/activity_horizontal_margin"
+            android:layout_marginRight="@dimen/activity_horizontal_margin"
+            android:layout_marginBottom="@dimen/activity_vertical_margin">
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp">
+                <TextView
+                    style="@style/TextSpec.Field"
+                    android:text="@string/f_umum"/>
+                <TextView
+                    android:id="@+id/tv_facilities"
+                    style="@style/TextSpec.Value"
+                    android:text="@string/f_umum_desc"/>
+            </TableRow>
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp">
+                <TextView
+                    style="@style/TextSpec.Field"
+                    android:text="@string/size"/>
+                <TextView
+                    android:id="@+id/tv_size"
+                    style="@style/TextSpec.Value"
+                    android:text="@string/content_specs_size"/>
+            </TableRow>
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp">
+                <TextView
+                    style="@style/TextSpec.Field"
+                    android:text="@string/lama_tinggal"/>
+                <TextView
+                    android:id="@+id/tv_time"
+                    style="@style/TextSpec.Value"
+                    android:text="@string/lama_tinggal_desc"/>
+            </TableRow>
+        </TableLayout>
+        <TextView
+            style="@style/TextContent.Subtitle"
+            android:text="@string/di_jual_oleh"
+            android:layout_marginBottom="8dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/activity_vertical_margin"
+            android:layout_marginLeft="@dimen/activity_horizontal_margin"
+            android:layout_marginRight="@dimen/activity_horizontal_margin"
+            android:orientation="horizontal"
+            >
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/profile_image"
+                android:layout_width="56dp"
+                android:layout_height="56dp"
+                android:layout_centerVertical="true"
+                android:layout_marginEnd="@dimen/activity_horizontal_margin"
+                android:layout_marginRight="@dimen/activity_horizontal_margin"
+                android:src="@drawable/photo_2" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/tv_owner"
+                    style="@style/TextContent"
+                    android:layout_marginBottom="8dp"
+                    android:text="Sapril ( Kost Name )" />
+
+                <TextView
+                    android:id="@+id/tv_kost_address"
+                    style="@style/TextContent"
+                    android:text="Jln mutiara" />
+            </LinearLayout>
+        </LinearLayout>
+        <Button
+            android:id="@+id/btn_hubungi"
+            android:text="@string/hubungi"
+            style="@style/ButtonGeneral" />
+    </LinearLayout>
+</ScrollView>
